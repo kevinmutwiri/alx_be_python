@@ -7,3 +7,4 @@
 - [rectangle_area.py](./rectangle_area.py) - Calculate area of a rectangle.
 - [hours_to_seconds.py](./hours_to_seconds.py) - Convert hours to seconds.
 - [future_age_calculator.py](./future_age_calculator.py) - Calculate future age.
+- [finance_calculator.py](./finance_calculator.py) - Calculate compound interest.
