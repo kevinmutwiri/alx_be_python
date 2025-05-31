@@ -4,3 +4,4 @@
 
 - [weather_advice.py](./weather_advice.py) - Recommend action based on weather.
 - [match_case_calculator.py](./match_case_calculator.py) - Implement simple calculator.
+- [multiplication_table.py](./multiplication_table.py) - Implement multiplication table.
