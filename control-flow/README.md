@@ -2,4 +2,4 @@
 
 > [home](../README.md)
 
-- [weather_advice.py](./ weather_advice.py) - Recommend action based on weather.
+- [weather_advice.py](./weather_advice.py) - Recommend action based on weather.
