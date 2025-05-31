@@ -6,3 +6,4 @@
 - [match_case_calculator.py](./match_case_calculator.py) - Implement simple calculator.
 - [multiplication_table.py](./multiplication_table.py) - Implement multiplication table.
 - [pattern_drawing.py](./pattern_drawing.py) - Draw patterns.
+- [daily_reminder.py](./daily_reminder.py) - Implement a daily reminder.
