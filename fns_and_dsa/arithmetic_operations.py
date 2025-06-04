@@ -8,13 +8,10 @@ def perform_operation(num1, num2, operation):
         case "multiply":
             return num1 * num2
         case "divide":
-            try:
-                result = num1 / num2
-            except ZeroDivisionError:
-                return "Cannot divide by zero."
+            if num2 != 0:
+                return num1 / num2
             else:
-                return result
-
+                return "Cannot divide by zero."
 
 if __name__ == "__main__":
     perform_operation()
