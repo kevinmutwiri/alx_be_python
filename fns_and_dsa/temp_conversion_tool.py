@@ -5,9 +5,10 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 def main():
     while True:
         temperature = input("Enter the temperature to convert: ")
-        if not temperature.isdigit():
-            print("Invalid temperature. Please enter a numeric value")
-            continue
+        try:
+            temperature = int(temperature)
+        except ValueError:
+            raise ValueError("Invalid temperature. Please enter a numeric value.")
         unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").lower()
         if unit not in ('c', 'f'):
             print("Please input either 'C' or 'F'")
